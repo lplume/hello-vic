@@ -1,3 +1,3 @@
 #!/bin/bash
 
-vasm6502_oldstyle ../main.asm -cbm-prg -chklabels -nocase -Fbin -o "../builds/$1.prg"
+./vasm6502_oldstyle ../main.asm -cbm-prg -chklabels -nocase -Fbin -o "../builds/$1.prg"
